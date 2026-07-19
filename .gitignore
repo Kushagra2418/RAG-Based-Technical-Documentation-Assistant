@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+
+# Vector store + generated data
+data/chroma/
+data/feedback.jsonl
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+install_log.txt

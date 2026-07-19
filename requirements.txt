@@ -1,0 +1,29 @@
+# --- Core: LangGraph workflow + LangChain glue ---
+langgraph==1.2.9
+langchain-core==1.4.9
+langchain-groq==1.1.3
+langchain-community==0.4.2
+langchain-text-splitters==1.1.2
+
+# --- Vector store + embeddings ---
+langchain-chroma==1.1.0
+chromadb==1.5.9
+langchain-huggingface>=0.3.0
+sentence-transformers>=3.0.0
+
+# --- API ---
+fastapi==0.139.2
+uvicorn[standard]==0.51.0
+python-multipart==0.0.32
+
+# --- Config & utilities ---
+pydantic==2.13.4
+pydantic-settings==2.14.2
+python-dotenv==1.2.2
+beautifulsoup4==4.14.3
+requests==2.33.1
+pypdf>=4.0.0                # PDF text extraction for .pdf ingestion
+
+# --- Optional / bonus features ---
+tavily-python>=0.5.0        # web-search fallback (only used if TAVILY_API_KEY is set)
+streamlit>=1.36.0           # optional Streamlit UI (streamlit_app.py)
